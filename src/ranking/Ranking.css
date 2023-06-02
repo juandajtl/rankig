@@ -1,0 +1,51 @@
+.ranking-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: none;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  color: #555;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+th:first-child,
+td:first-child {
+  width: 40px;
+}
+
+.points {
+  font-weight: bold;
+}
+
+.first-place {
+  background-color: gold;
+  color: #333;
+  font-weight: bold;
+}
+
+.profile-pic {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-left: 10px; /* Puedes ajustar este valor según tus preferencias */
+  }
+  
